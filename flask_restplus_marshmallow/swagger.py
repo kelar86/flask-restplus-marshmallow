@@ -1,5 +1,5 @@
 from flask_restplus import Swagger as OriginalSwagger
-from apispec.ext.marshmallow.swagger import schema2parameters
+from apispec.ext.marshmallow.openapi import schema2parameters
 
 
 class Swagger(OriginalSwagger):
